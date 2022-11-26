@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FORM Input mahasiswa</title>
+</head>
+<body>
+    <h2>Tentang Diri Anda</h2>
+    <from action="simpan.php" methode="post" name="myform">
+        <label for="nama">NAMA :</label> <input type="text" name="nama" size="25" required><br>
+        <label for="jk"> Jenis Kelamin  : </label>
+        <input type="checkbox" id="xlk" name="jk" value="laki-lakai" required>
+        <label for="male">laki-lakai</label>
+        <input type="checkbox" id="xpr" name="jk" value="Perempuan" required>
+        <label for="female"> Perempuan</label><br>
+        <label for="tanggallahir">Tanggal lahir</label>
+        <input type="date" id="birthday" name="birthday" required><br>
+        <label for="email">Alamat Email</label>
+        <input type="text" id="email" name="email" value="@gmail.com"><br>
+        <label for="nophone">NO HP :</label>
+        <input type="number" id="nohp" name="nohp"> <br>
+        <input type="reset" value="reset">
+        <input type="submit" value="next">
+    </from>
+    <h3>Tahu dari mana web ini <br></h3>
+        <label for="web" id="web"> SILAHKAN PILIH >_<   </label>
+        <select id="web" id="web" name="web"  value="pilih" required>
+            <option value="caritahusendiri">cari tahu sendiri </option>
+            <option value="webudinus">Web udinus</option>
+            <option value="suratkabar">surat kabar</option>
+            <option value="kerabat">kerabat</option>
+        </select><br>
+    <h4>aktif pada sosial media</h4>
+            <label for="aktif">SILAHKAN PILIH GUYS :</label><br>
+            <input type="checkbox" id="aktif" nama="aktif" required>
+            <label for="akti2">faceebook </label><br>
+            <input type="checkbox" id="aktif2" nama="aktif2" required>
+            <label for="aktif3">instagram</label><br>
+            <input type="checkbox" id="aktif3" nama="aktif3" required>
+            <label for="aktif3">tiktok</label><br>
+            <input type="submit" value="simpan">
+            
+    <p>ingin mengunjungi website saya?? <a href="index.html" class="current">klik disini</a></p>
+
+</body>
+</html>
